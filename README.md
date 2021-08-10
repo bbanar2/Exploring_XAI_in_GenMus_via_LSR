@@ -24,4 +24,4 @@ pip install -r requirements.txt
 
 Download from: https://github.com/ashispati/AttributeModelling
 
-Unzip the downloaded file and put the 'datasets' and 'folk_raw_data' folders under 'data'.
+Unzip the downloaded file and put the `datasets` and `folk_raw_data` folders under `data`.
