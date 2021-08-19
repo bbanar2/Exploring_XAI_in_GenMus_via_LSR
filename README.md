@@ -1,10 +1,7 @@
 # Explainable AI via Latent Space Regularisation
 
-Augmentation of Pati, Ashis and Lerch, Alexander. (2019). Latent Space Regularization for Explicit Control of Musical Attributes.
+Augmentation of Pati, Ashis and Lerch, Alexander. (2019). Latent Space Regularization for Explicit Control of Musical Attributes (https://github.com/ashispati/AttributeModelling).
 
-Implementation from:
-
-https://github.com/ashispati/AttributeModelling
 
 # Web Demo Links:
 
