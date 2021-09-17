@@ -1,20 +1,21 @@
-# Explainable AI via Latent Space Regularisation
+# Exploring XAI for the Arts: Explaining Latent Space in Generative Music
 
-Augmentation of Pati, Ashis and Lerch, Alexander. (2019). Latent Space Regularization for Explicit Control of Musical Attributes - https://github.com/ashispati/AttributeModelling.
+Augmentation of Ashis Pati and Alexander Lerch's "Latent Space Regularization for Explicit Control of Musical Attributes" (2019) and "Attribute-based Regularization of Latent Spaces for Variational Auto-Encoders" (2020).
+
+Implementation source:
+https://github.com/ashispati/AttributeModelling.
 
 
 # Web Demo Links:
 
-https://xai-with-lsr-ui.vercel.app/
+https://xai-lsr-ui.vercel.app/
 
-https://xai-without-lsr-ui.vercel.app/
-
-https://jackarmitage.com/svelte-pianoroll-deploy/ (Credit: Jack Armitage)
+https://xai-no-lsr-ui.vercel.app/
 
 
 # Python and Cuda Versions:
-module load python/3.7.7       
-module load cuda/10.2-cudnn8.0.5
+python/3.7.7       
+cuda/10.2-cudnn8.0.5
 
 # For the python packages:
 pip install -r requirements.txt
@@ -24,3 +25,7 @@ pip install -r requirements.txt
 Download from: https://github.com/ashispati/AttributeModelling
 
 Unzip the downloaded file and put the `datasets` and `folk_raw_data` folders under `data`.
+
+# Generated Pianoroll and Audio Files with LSR for Demonstration:
+
+They are named with their corresponding musical metrics levels (10 discrete level for each of the 4 metrics). For example, midi_3_4_5_3.mid means, this file has 3/10 rhythmic complexity, 4/10 note range, 5/10 note density and 3/10 average interval jump.
