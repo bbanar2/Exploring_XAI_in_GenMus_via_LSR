@@ -28,4 +28,4 @@ Unzip the downloaded file and put the `datasets` and `folk_raw_data` folders und
 
 # Generated Pianoroll and Audio Files with LSR for Demonstration:
 
-They are named with their corresponding musical metrics levels (10 discrete level for each of the 4 metrics). For example, midi_3_4_5_3.mid means, this file has 3/10 rhythmic complexity, 4/10 note range, 5/10 note density and 3/10 average interval jump.
+They are named with their corresponding musical metric levels (10 discrete levels for each of the 4 metrics). For example, midi_3_4_5_3.mid means, this file has 3/10 rhythmic complexity, 4/10 note range, 5/10 note density and 3/10 average interval jump.
