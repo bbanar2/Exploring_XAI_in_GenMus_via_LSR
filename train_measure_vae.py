@@ -42,7 +42,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="1"
               help='float, amount got dropout prob between decoder RNN layers')
 @click.option('--batch_size', default=256,
               help='training batch size')
-@click.option('--num_epochs', default=16, # 16 EPOCHS
+@click.option('--num_epochs', default=30, # 30 EPOCHS
               help='number of training epochs')
 @click.option('--train/--test', default=False, # TRAIN
               help='train or test the specified model')
@@ -338,10 +338,11 @@ def main(note_embedding_dim,
             reg_dim=reg_dim
         )
 
-        # dim, score = tester.test_interpretability(
-        #     batch_size=batch_size,
-        #     attr_type='note_range'
-        # )
+        # Interpretability
+        dim, score = tester.test_interpretability(
+            batch_size=batch_size,
+            attr_type='note_range' # rhy_complexity, num_notes, note_range, average_interval_jump
+        )
 
         grid_res = 0.05
         tester.plot_attribute_surface(

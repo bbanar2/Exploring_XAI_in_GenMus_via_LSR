@@ -90,6 +90,8 @@ class VAETester(object):
                 attr = self.dataset.get_notes_density_in_measure(score_tensor)
             elif attr_type == 'note_range':
                 attr = self.dataset.get_note_range_of_measure(score_tensor)
+            elif attr_type == 'average_interval_jump':
+                attr = self.dataset.get_average_pitch_interval_of_measure(score_tensor)
             z_all.append(to_numpy(z_tilde.cpu()))
             attr_all.append(to_numpy(attr.cpu()))
         z_all = np.concatenate(z_all)
